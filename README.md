@@ -40,5 +40,5 @@ MUJOCO_GL="egl" CUDA_VISIBLE_DEVICES=0 nohup python -u train.py \
 	--num_train_steps 260000 > ${DOMAIN}_${TASK}_${SEED}.log &
 ```
 
-Note that the MuJoCo Python bindings support three different OpenGL rendering backends: "glfw", "egl", or "osmesa". You can also specify a particular backend to use by setting the `MUJOCO_GL=` environment variable to one of them.
+Note that the MuJoCo Python bindings support three different OpenGL rendering backends: `"glfw"`, `"egl"`, or `"osmesa"`. You can also specify a particular backend to use by setting the `MUJOCO_GL=` environment variable to one of them.
 
