@@ -51,6 +51,3 @@ tensorboard --logdir ./path/to/your/log --port 6006
 ## References
 Please cite the paper [SimSR: Simple Distance-based State Representationfor Deep Reinforcement Learning]() if you found the resources in the repository useful.
 
-```
-
-```
