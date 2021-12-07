@@ -42,3 +42,15 @@ MUJOCO_GL="egl" CUDA_VISIBLE_DEVICES=0 nohup python -u train.py \
 
 Note that the MuJoCo Python bindings support three different OpenGL rendering backends: `"glfw"`, `"egl"`, or `"osmesa"`. You can also specify a particular backend to use by setting the `MUJOCO_GL=` environment variable to one of them.
 
+To visualize progress with tensorboard run:
+
+```
+tensorboard --logdir ./path/to/your/log --port 6006
+```
+
+## References
+Please cite the paper [SimSR: Simple Distance-based State Representationfor Deep Reinforcement Learning]() if you found the resources in the repository useful.
+
+```
+
+```
