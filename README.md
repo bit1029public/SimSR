@@ -1,5 +1,5 @@
 # SimSR
-Code and dataset for the paper [SimSR: Simple Distance-based State Representationfor Deep Reinforcement Learning](https://arxiv.org/abs/2112.15303) (AAAI-22).
+Code for the paper [SimSR: Simple Distance-based State Representationfor Deep Reinforcement Learning](https://arxiv.org/abs/2112.15303) (AAAI-22).
 
 ## Requirements
 We assume you have access to a gpu that can run CUDA 11. All of the dependencies are in the `conda_env.yml` file.
