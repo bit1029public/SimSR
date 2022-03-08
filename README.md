@@ -8,7 +8,7 @@ We assume you have access to a gpu that can run CUDA 11. All of the dependencies
 conda env create -f conda_env.yml
 ```
 
-After the instalation ends you can activate your environment with
+After the installation ends you can activate your environment with
 
 ```
 conda activate simsr
